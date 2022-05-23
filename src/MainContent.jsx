@@ -44,7 +44,7 @@ export default class MainContent extends Component {
         <h3 className="border-bottom">
           {this.state.pageTitle}
           <span className="badge badge-secondary m-2">
-            {this.state.customerCount}
+            {this.state.customersCount}
           </span>
           <button className="btn btn-info" onClick={this.onRefreshClick}>
             Refresh
